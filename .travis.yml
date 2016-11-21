@@ -1,0 +1,8 @@
+language: ruby
+script: rake spec
+rvm:
+  - 2.3
+notifications:
+  email:
+    - bess@stanford.edu
+
