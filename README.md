@@ -19,7 +19,7 @@ $ gunzip ClinVarFullRelease_00-latest.xml.gz
 * Ruby gems documented via Gemfile
 
 ## Tests
-* Run `rake spec` to run tests
+* Run `rake ci` to run tests
 * CI build via travis-ci.org
 
 To do:
