@@ -1,9 +1,18 @@
-# Add your own tasks in files placed in lib/tasks ending in .rake,
-# for example lib/tasks/capistrano.rake, and they will automatically be available to Rake.
+require 'rake'
+require 'bundler'
 
-require_relative 'config/application'
+require 'rspec/core/rake_task'
+require 'yard'
+require 'yard/rake/yardoc_task'
 
-Rails.application.load_tasks
 
-ZIP_URL = "https://github.com/projectblacklight/blacklight-jetty/archive/v4.10.4.zip"
-require 'jettywrapper'
+begin
+  require 'rspec/core/rake_task'
+
+  RSpec::Core::RakeTask.new(:spec) do |t|
+      t.pattern = 'spec/lib/*.rb'
+    end
+  task :default => :spec
+rescue LoadError
+  # no rspec available
+end
