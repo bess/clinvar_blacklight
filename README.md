@@ -1,9 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an experimental prototype for indexing ClinVar data (https://www.ncbi.nlm.nih.gov/clinvar/) into Blacklight (http://projectblacklight.org)
 
-Things you may want to cover:
+To do:
 
 * Ruby version
 
