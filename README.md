@@ -18,6 +18,10 @@ $ gunzip ClinVarFullRelease_00-latest.xml.gz
 * Blacklight 6
 * Ruby gems documented via Gemfile
 
+## Tests
+* Run `rake spec` to run tests
+* CI build via travis-ci.org
+
 To do:
 
 * Ruby version
