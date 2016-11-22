@@ -15,4 +15,9 @@ describe 'ClinVarParser' do
     cvp = ClinVarParser.new(@clinvar_sample_data)
     expect(cvp.parser).to be_kind_of(Nokogiri::XML::SAX::Parser)
   end
+  it "can parse" do
+    cvp = ClinVarParser.new(@clinvar_sample_data)
+    expect{cvp.parse}.not_to raise_error
+    # parser.parse(File.open(ARGV[0]))
+  end
 end
