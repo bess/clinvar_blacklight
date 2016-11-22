@@ -12,7 +12,7 @@ class ClinVarParser
 
   def parse
     puts "parsing... "
-    @parser.parse(@clinvar_xml_file)
+    @parser.parse(File.open(@clinvar_xml_file, "r"))
   end
 
 end
