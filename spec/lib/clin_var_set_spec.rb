@@ -5,9 +5,17 @@ require 'clin_var_document'
 require 'clin_var_set'
 
 describe 'ClinVarSet' do
+  before(:all) do
+    @id = '123'
+  end
   it "has an id" do
-    id = '123'
-    cvs = ClinVarSet.new(id)
-    expect(cvs.id).to eql(id)
+    cvs = ClinVarSet.new(@id)
+    expect(cvs.id).to eql(@id)
+  end
+  it "has a title" do
+    title = "foo"
+    cvs = ClinVarSet.new(@id)
+    cvs.title = title
+    expect(cvs.title).to eql(title)
   end
 end
