@@ -10,4 +10,8 @@ class ClinVarParser
     @parser = Nokogiri::XML::SAX::Parser.new(ClinVarDocument.new)
   end
 
+  def parse
+    @parser.parse(@clinvar_xml_file)
+  end
+
 end
