@@ -5,6 +5,7 @@ require 'rspec/core/rake_task'
 require 'yard'
 require 'yard/rake/yardoc_task'
 
+Dir.glob('lib/tasks/*.rake').each { |r| load r}
 
 begin
   require 'rspec/core/rake_task'

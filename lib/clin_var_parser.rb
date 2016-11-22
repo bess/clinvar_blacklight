@@ -11,6 +11,7 @@ class ClinVarParser
   end
 
   def parse
+    puts "parsing... "
     @parser.parse(@clinvar_xml_file)
   end
 
