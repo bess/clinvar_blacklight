@@ -58,3 +58,4 @@ gem 'blacklight-marc', '~> 6.1'
 
 gem 'rspec'
 gem 'yard'
+gem 'nokogiri'
