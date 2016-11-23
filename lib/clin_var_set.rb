@@ -6,6 +6,17 @@ class ClinVarSet
 
   def initialize(id)
     @id = id
+    @values_hash = {:id => @id}
+  end
+
+  def to_solr
+    @values_hash = {
+      :id => @id,
+      :record_status => @record_status,
+      :replaces => @replaces,
+      :title => @title
+    }
+    return @values_hash
   end
 
 end

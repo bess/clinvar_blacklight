@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ReleaseSet Dated="2016-10-31" Type="FAKEDATA" >
+
+<ClinVarSet ID="11290662">
+  <RecordStatus>current</RecordStatus>
+  <Replaces>FAKEFAKEFAKE</Replaces>
+  <Title>NM_032018.6(SPRTN):c.717_718+2delAGGT AND not provided</Title>
+  <ReferenceClinVarAssertion DateCreated="2014-08-23" DateLastUpdated="2016-04-10" ID="312256">
+    <ClinVarAccession Acc="RCV000133535" Version="2" Type="RCV" DateUpdated="2016-04-10"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance>
+      <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+        <NumberTested>2</NumberTested>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="10779674">
+        <Attribute Type="Description">not provided</Attribute>
+      </ObservedData>
+      <ObservedData ID="10779674">
+        <Attribute Type="Description">not provided</Attribute>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="144028">
+      <Measure Type="Deletion" ID="153767">
+        <Name>
+          <ElementValue Type="Preferred">NM_032018.6(SPRTN):c.717_718+2delAGGT</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="HGVS, coding" Change="c.717_718+2del">NM_032018.6:c.717_718+2del</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, coding, RefSeq" Change="c.717_718+2delAGGT">NM_032018.6:c.717_718+2delAGGT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, coding, RefSeq" Change="c.717_720delAGGT">NM_001010984.3:c.717_720delAGGT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, RefSeqGene" Change="g.18635_18638delAGGT">NG_042052.1:g.18635_18638delAGGT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, top level" Change="g.231351570_231351573delAGGT" integerValue="38">NC_000001.11:g.231351570_231351573delAGGT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, top level, other" Change="g.231351570_231351573del" integerValue="38">NC_000001.11:g.231351570_231351573del</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, top level, previous" Change="g.231487316_231487319delAGGT" integerValue="37">NC_000001.10:g.231487316_231487319delAGGT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, previous" Change="c.717_718+2delAGGT">NM_032018.5:c.717_718+2delAGGT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, protein, RefSeq" Change="p.Gly240Profs">NP_001010984.1:p.Gly240Profs</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="MolecularConsequence">frameshift variant</Attribute>
+          <XRef ID="SO:0001589" DB="Sequence Ontology"/>
+          <XRef ID="NM_001010984.3:c.717_720delAGGT" DB="RefSeq"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="MolecularConsequence">splice donor variant</Attribute>
+          <XRef ID="SO:0001575" DB="Sequence Ontology"/>
+          <XRef ID="NM_032018.6:c.717_718+2del" DB="RefSeq"/>
+        </AttributeSet>
+        <CytogeneticLocation>1q42.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.28" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="231351570" stop="231351573" display_start="231351570" display_stop="231351573" variantLength="4" referenceAllele="AGGT" alternateAllele="-"/>
+        <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="231487316" stop="231487319" display_start="231487316" display_stop="231487319" variantLength="4" referenceAllele="AGGT" alternateAllele="-"/>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">SprT-like N-terminal domain</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">SPRTN</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh38" AssemblyAccessionVersion="GCF_000001405.28" AssemblyStatus="current" Chr="1" Accession="NC_000001.11" start="231337935" stop="231370550" display_start="231337935" display_stop="231370550" variantLength="32616" Strand="+"/>
+          <SequenceLocation Assembly="GRCh37" AssemblyAccessionVersion="GCF_000001405.25" AssemblyStatus="previous" Chr="1" Accession="NC_000001.10" start="231473681" stop="231490768" display_start="231473681" display_stop="231490768" variantLength="17088" Strand="+"/>
+          <XRef ID="83932" DB="Gene"/>
+          <XRef Type="MIM" ID="616086" DB="OMIM"/>
+          <XRef ID="HGNC:25356" DB="HGNC"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="616086.0002" DB="OMIM"/>
+        <XRef Type="rs" ID="587593493" DB="dbSNP"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="Preferred">NM_032018.6(SPRTN):c.717_718+2delAGGT</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="9460">
+      <Trait ID="17556" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">not provided</ElementValue>
+        </Name>
+        <XRef ID="CN221809" DB="MedGen"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="312243" SubmissionName="CBD_7">
+    <ClinVarSubmissionID localKey="NC_000001.11:g.231351570_231351573del|BLC" submitter="Neurogenetics Research; Murdoch Childrens Research Institute" submitterDate="2014-08-22"/>
+    <ClinVarAccession Acc="SCV000188611" Version="2" Type="SCV" OrgID="500113" DateUpdated="2015-12-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance>
+      <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+      <Description>pathogenic</Description>
+      <Comment>Converted during submission to Pathogenic.</Comment>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <AttributeSet>
+      <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+      <Citation Type="general">
+        <ID Source="PubMed">25261934</ID>
+      </Citation>
+    </AttributeSet>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+        <NumberTested>1</NumberTested>
+      </Sample>
+      <Method>
+        <MethodType>not provided</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">not provided</Attribute>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <AttributeSet>
+          <Attribute Type="HGVS">NC_000001.11:g.231351570_231351573del</Attribute>
+        </AttributeSet>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">not provided</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+    <Comment>Autosomal recessive atypical progeroid syndrome with hepatic cellular carcinoma. Heterozygous mutation in 1 family</Comment>
+  </ClinVarAssertion>
+  <ClinVarAssertion ID="312319" SubmissionName="CBD_8">
+    <ClinVarSubmissionID localKey="NM_032018.5:c.717_718+2delAGGT|BLC" submitter="Neurogenetics Research; Murdoch Childrens Research Institute" submitterDate="2014-08-25"/>
+    <ClinVarAccession Acc="SCV000188639" Version="2" Type="SCV" OrgID="500113" DateUpdated="2015-12-31"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance>
+      <ReviewStatus>criteria provided, single submitter</ReviewStatus>
+      <Description>pathogenic</Description>
+      <Comment>Converted during submission to Pathogenic.</Comment>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <AttributeSet>
+      <Attribute Type="AssertionMethod">Submitter's publication</Attribute>
+      <Citation Type="general">
+        <ID Source="PubMed">25261934</ID>
+      </Citation>
+    </AttributeSet>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+        <NumberTested>1</NumberTested>
+      </Sample>
+      <Method>
+        <MethodType>not provided</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">not provided</Attribute>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <AttributeSet>
+          <Attribute Type="HGVS">NM_032018.5:c.717_718+2delAGGT</Attribute>
+        </AttributeSet>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">not provided</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+    <Comment>Autosomal recessive atypical progeroid syndrome with hepatic cellular carcinoma. Heterozygous mutation in 1 family</Comment>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+</ReleaseSet>

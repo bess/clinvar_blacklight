@@ -6,15 +6,17 @@ require 'clin_var_set'
 describe 'ClinVarSet' do
   before(:all) do
     @id = '123'
+    @cvs = ClinVarSet.new(@id)
   end
   it "has an id" do
-    cvs = ClinVarSet.new(@id)
-    expect(cvs.id).to eql(@id)
+    expect(@cvs.id).to eql(@id)
   end
   it "has a title" do
     title = "foo"
-    cvs = ClinVarSet.new(@id)
-    cvs.title = title
-    expect(cvs.title).to eql(title)
+    @cvs.title = title
+    expect(@cvs.title).to eql(title)
+  end
+  it "can output a hash of its values" do
+    expect(@cvs.to_solr).to be_kind_of(Hash)
   end
 end
